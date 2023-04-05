@@ -1,14 +1,11 @@
 /// <reference types="cypress" />
 import HomePage from "../Pages/HomePage";
-import LoginPage from "../Pages/Login";
 
-describe("Homework - 2", () => {
+describe("Homework - 3", () => {
   let homePage;
-  let loginPage;
 
   before(() => {
     homePage = new HomePage();
-    loginPage = new LoginPage();
   });
 
   beforeEach(() => {
